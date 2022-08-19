@@ -18,7 +18,7 @@ body {
     padding: 0;
     line-height: 1.5;
     font-size: 16px; 
-    font-family: 'poppins' sans-serif;
+    font-family: 'Cairo', sans-serif;
 }
 * { 
     margin: 0;
@@ -627,14 +627,14 @@ max-width: 100%;
     padding: 30px 15px;
     transition: all .3s ease;
     text-align: center;
-    box-shadow: -15px -15px 15px rgba(12, 8, 213, 0.02), 15px 15px 15px rgb(0 0 0 / 39%);
+    box-shadow: -15px -15px 15px #ff002b5d, 15px 15px 15px rgba(94, 70, 199, 0.384);
 }
 
 .service .service-item .service-item-inner:hover { 
     box-shadow: 0 0 20px rgba(48, 46, 77, .25);
 }
 .service .service-item .service-item-inner.sun { 
-    box-shadow: 0 0 20px rgba(48, 46, 77, .25);
+    box-shadow: 0 0 20px rgba(17, 0, 255, 0.25);
 }
 .service .service-item .service-item-inner .icon { 
     height: 60px;
@@ -691,6 +691,7 @@ margin-bottom: 40px;
     overflow: hidden;
     cursor: pointer;
     height: 100%;
+    box-shadow: -15px -15px 15px #ff002b5d, 15px 15px 15px rgba(94, 70, 199, 0.384);
 }
 .portfolio .portfolio-item-inner .portfolio-img { 
     height: 100%;
@@ -719,7 +720,7 @@ height: 100%;
     border-radius: 10px;
     padding: 30px 1px;
     text-align: center;
-    box-shadow: -15px -15px 15px rgba(12, 8, 213, 0.02), 15px 15px 15px rgb(0 0 0 / 39%);
+    box-shadow: -15px -15px 15px #ff002b5d, 15px 15px 15px rgba(94, 70, 199, 0.384);
     
 }
 .contact .contact-info-item .icon { 
@@ -767,7 +768,7 @@ height: 100%;
     transition: all .5s ease;
 }
 .contact .contact-form .form-item .form-control:focus { 
-    box-shadow: 0 0 20px rgba(48,46,77,.20);
+    box-shadow: 0 0 20px rgba(17, 0, 255, 0.2);
 }
 .contact .contact-form .form-item textarea.form-control { 
     height: 140px;
